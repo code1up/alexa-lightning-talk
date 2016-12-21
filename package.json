@@ -1,0 +1,19 @@
+{
+  "name": "alexa-lightning-talk",
+  "version": "1.0.0",
+  "description": "Alexa Lightning Talk Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code1up/alexa-lightning-talk.git"
+  },
+  "author": "Alan Gorton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code1up/alexa-lightning-talk/issues"
+  },
+  "homepage": "https://github.com/code1up/alexa-lightning-talk#readme"
+}
