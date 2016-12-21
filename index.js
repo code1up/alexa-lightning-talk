@@ -1,14 +1,16 @@
 'use strict';
 
+/*
 const States = {
     NewLightningTalk: 1
 };
+*/
 
 const Alexa = require('alexa-sdk');
 
 const handlers = {
     LaunchRequest: () => {
-        this.emit('AboutIntent')
+        this.emit('AboutIntent');
     },
 
     AboutIntent: () => {
@@ -16,7 +18,7 @@ const handlers = {
     }
 };
 
-exports.handler = (event, context, callback) => {
+exports.handler = (event, context /*, callback */) => {
     const alexa = Alexa.handler(event, context);
 
     alexa.registerHandlers(handlers);
