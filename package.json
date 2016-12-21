@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/code1up/alexa-lightning-talk#readme",
   "dependencies": {
-    "alexa-sdk": "^1.0.6"
+    "alexa-sdk": "^1.0.6",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
