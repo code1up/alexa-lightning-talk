@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/code1up/alexa-lightning-talk/issues"
   },
-  "homepage": "https://github.com/code1up/alexa-lightning-talk#readme"
+  "homepage": "https://github.com/code1up/alexa-lightning-talk#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
 }
