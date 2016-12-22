@@ -9,11 +9,11 @@ const States = {
 const Alexa = require('alexa-sdk');
 
 const handlers = {
-    LaunchRequest: () => {
+    LaunchRequest: function () {
         this.emit('AboutIntent');
     },
 
-    AboutIntent: () => {
+    AboutIntent: function () {
         this.emit(':tell', 'Welcome to lightning talk about the Amazon Echo.');
     }
 };
