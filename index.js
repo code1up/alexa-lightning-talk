@@ -18,7 +18,7 @@ const handlers = {
     },
 
     OtherIntent: function () {
-        this.emit(':tell', 'Yo! Amazon Echo, cool bro!');
+        this.emit(':tell', 'Hey, Sidney is so, like, cool!');
     }
 };
 
