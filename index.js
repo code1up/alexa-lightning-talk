@@ -10,11 +10,15 @@ const Alexa = require('alexa-sdk');
 
 const handlers = {
     LaunchRequest: function () {
-        this.emit('AboutIntent');
+        this.emit('OtherIntent');
     },
 
     AboutIntent: function () {
         this.emit(':tell', 'Welcome to lightning talk about the Amazon Echo.');
+    },
+
+    OtherIntent: function () {
+        this.emit(':tell', 'Yo! Amazon Echo, cool bro!');
     }
 };
 
