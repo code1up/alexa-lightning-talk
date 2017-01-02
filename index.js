@@ -1,22 +1,18 @@
 'use strict';
 
-/*
-const States = {
-    NewLightningTalk: 1
-};
-*/
-
 const Alexa = require('alexa-sdk');
+const bot = require('alexa-bot');
+
+const xhandlers = {
+    AboutIntent: (new require('about-intent-handler')(bot)).handler
+};
 
 const handlers = {
     LaunchRequest: function () {
-        console.log(this);
         this.emit('AboutIntent');
     },
 
-    AboutIntent: function () {
-        this.emit(':tell', 'Welcome to this lightning talk about the Amazon Echo.');
-    },
+    AboutIntent: xhandlers.AboutIntent,
 
     Unhandled: function () {
         this.emit(':tell', 'Sorry, not sure what you said.');

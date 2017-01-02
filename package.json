@@ -8,7 +8,7 @@
   },
   "scripts": {
     "lint": "node_modules/.bin/eslint index.js src/ test/",
-    "test": "mocha"
+    "test": "tape test/**/*.js | faucet"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,12 @@
   },
   "homepage": "https://github.com/code1up/alexa-lightning-talk#readme",
   "dependencies": {
-    "alexa-sdk": "^1.0.6",
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "alexa-sdk": "^1.0.6"
   },
   "devDependencies": {
-    "eslint": "^3.12.2"
+    "eslint": "^3.12.2",
+    "faucet": "0.0.1",
+    "tape": "^4.6.3",
+    "tape-catch": "^1.0.6"
   }
 }
