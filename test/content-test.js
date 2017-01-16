@@ -1,16 +1,13 @@
 'use strict';
 
 const tape = require('tape-catch');
-const content = require('content');
 
-tape('should get content after it\`s been added', function (test) {
+tape('should fake test', function (test) {
     // arrange
-    const content 
 
     // act
 
     // assert
-
     test.equal(1, 1);
     test.end();
 });
