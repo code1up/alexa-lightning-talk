@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 const tape = require('tape-catch');
@@ -11,3 +12,4 @@ tape('should fake test', function (test) {
     test.equal(1, 1);
     test.end();
 });
+*/

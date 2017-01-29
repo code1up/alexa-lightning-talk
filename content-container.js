@@ -1,9 +1,9 @@
+/*
 const ContentContainer = function (entries) {
     this._entries = entries || {};
 };
 
 ContentContainer.prototype.addEntry = function (key) {
-
 };
 
 ContentContainer.prototype.getEntries = function () {
@@ -15,3 +15,4 @@ ContentContainer.prototype.getEntry = function (key) {
 };
 
 module.exports = ContentContainer;
+*/

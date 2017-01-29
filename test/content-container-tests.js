@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 const tape = require('tape-catch');
@@ -31,3 +32,4 @@ tape('ContentContainer: should get entry by key', function (test) {
     test.equal(actualValue, expectedValue);
     test.end();
 });
+*/

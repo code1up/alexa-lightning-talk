@@ -1,3 +1,4 @@
+/*
 const ContentContainer = require('content-container');
 
 const Content = function () {
@@ -16,3 +17,4 @@ Content.prototype.getEntry = function (containerKey, contentKey) {
 };
 
 module.exports = Content;
+*/
